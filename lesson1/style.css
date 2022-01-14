@@ -1,0 +1,165 @@
+body {
+    font-family: Helvetica;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+hr {
+    margin: 20px 0 20px 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    padding: 50px 30px 50px 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/**/
+/* Персонажі */
+.Top {
+    text-align: center;
+    background-color: goldenrod;
+}
+.intro {
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    background: url("SimpsonsBackground.jpeg") center;
+    background-size: cover;
+}
+.Characters {
+    margin-top: 0;
+}
+.CharactersInfo {
+    background-color: goldenrod;
+}
+.Characters > h2  {
+    text-align: center;
+    background-color: goldenrod;
+}
+.CharactersPictures {
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+.CharactersPictures > img {
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+}
+.CharactersPictures > img:hover {
+    border-radius: 25px;
+    box-shadow: 0 0 5px gray;
+
+}
+.CharactersNames {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.CharactersNames > h3 {
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+}
+
+/* Меню пошуку */
+.LeftMenu {
+    width: 255px;
+    height: 300px;
+    background-color: lightgrey;
+    font-size: 18px;
+    padding-left: 25px;
+    border: 3px solid grey;
+    border-radius: 20px;
+}
+.LeftMenu > ol {
+    line-height: 50px;
+}
+.LeftMenu > center {
+    padding-top: 8px;
+}
+
+/* Загальна інформація */
+.GeneralInfo > h2 {
+    text-align: center;
+    background: goldenrod;
+}
+.GeneralInfo {
+    background: goldenrod;
+}
+
+/* Автори */
+.AuthorOne {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 340px;
+}
+.MattPicture {
+    height: 250px;
+    width: 200px;
+    float: left;
+    padding: 20px;
+    background: whitesmoke;
+    border: 2px solid gray;
+    margin: 3px;
+}
+.AuthorTwo {
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 380px;
+}
+.JamesPicture {
+    height: 250px;
+    width: 200px;
+    float: right;
+    padding: 20px;
+    background: whitesmoke;
+    border: 2px solid gray;
+    margin: 3px;
+}
+/* Нагороди*/
+.Awards {
+    background: goldenrod;
+    width: 100%;
+    height: 380px;
+}
+.SimpsonsStar {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 20px;
+    background: whitesmoke;
+    border: 2px solid gray;
+    margin: 3px;
+}
+
+/* Таблиця нагород*/
+.AwardsTable {
+    border: 1px solid black;
+    background: lightgrey;
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+.awardtable {
+    border: 1px solid black;
+    padding: 10px;
+}
