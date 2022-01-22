@@ -1,0 +1,352 @@
+h3 {
+    text-align: center;
+    margin: 40px 0;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.br-radius {
+    border-radius: 5px;
+}
+/* Завдання 1 */
+.containerOne {
+    display: flex;
+    flex-wrap: wrap;
+    background: whitesmoke;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+.containerOne > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.boxA {
+    height: 200px;
+    width: 100%;
+    background: lightgrey;
+    margin: 10px;
+}
+.boxB_C {
+    width: 100%;
+    margin: 0 10px 10px 10px;
+}
+.boxB_C > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.boxB {
+    height: 400px;
+    width: 70%;
+    background: lightgrey;
+    margin-right: 10px;
+}
+.boxC {
+    height: 400px;
+    width: 30%;
+    background: lightgrey;
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .containerOne {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .containerOne > div {
+        margin: 20px 10px;
+        width: 95%;
+    }
+    .boxA {
+        height: 75px;
+    }
+    .boxB_C {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .boxB_C > div {
+        width: 100%;
+        margin-right: 0;
+
+    }
+    .boxB {
+        height: 200px;
+    }
+    .boxC {
+        height: 75px;
+        margin-top: 40px;
+    }
+}
+
+/* Завдання 2 */
+.containetTwo {
+    border: 3px solid grey;
+    background: whitesmoke;
+}
+.aBox {
+    width: 98.5%;
+    height: 300px;
+    background: lightgrey;
+    margin: 10px;
+}
+.bigBox {
+    display: flex;
+    width: 98.5%;
+    margin: 0 10px 10px 10px;
+}
+.BCDEbox {
+    width: 75%;
+}
+.boxF {
+    width: 25%;
+    margin-left: 10px;
+    background: lightgrey;
+}
+.bBox {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background: lightgrey;
+}
+.CDEbox {
+    display: flex;
+    justify-content: space-between;
+}
+.CDEbox > div {
+    width: 32.5%;
+    height: 300px;
+    background: lightgrey;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .containetTwo {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .containetTwo > div {
+        margin: 20px 10px;
+        width: 95%;
+    }
+    .bigBox {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .BCDEbox {
+        width: 100%;
+    }
+    .aBox {
+        height: 75px;
+    }
+    .bBox {
+        width: 100%;
+        height: 150px;
+    }
+    .CDEbox {
+        justify-content: space-evenly;
+        margin: 40px 0;
+    }
+    .CDEbox > div {
+        height: 75px;
+        width: 75px;
+    }
+    .boxF {
+        width: 100%;
+        height: 75px;
+        margin-left: 0;
+    }
+}
+
+/* Завдання 3 */
+.containerThree {
+    border: 3px solid grey;
+    background: whitesmoke;
+}
+.boxBig {
+    width: 100%;
+    display: flex;
+    background: whitesmoke;
+}
+.containerForSix {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+
+}
+.containerForSix > div {
+    background: lightgrey;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.boxH {
+    width: 30%;
+    background: lightgrey;
+    margin: 10px 10px 10px 0;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .containerThree {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .containerThree > div {
+        margin: 20px 10px;
+        width: 95%;
+    }
+    .boxBig {
+        display: flex;
+        flex-direction: column;
+    }
+    .boxH {
+        width: 100%;
+        height: 150px;
+    }
+    .containerForSix {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .containerForSix > div {
+        width: 100px;
+        height: 100px;
+        margin: 40px;
+    }
+}
+
+/* Завдання 4 */
+.grey {
+    background: grey;
+}
+.containerFour {
+    color: white;
+}
+.logo_header {
+    display: flex;
+    height: 100px;
+}
+.logo {
+    width: 20%;
+    margin-right: 10px;
+}
+.header {
+    width: 80%;
+}
+.fatBox {
+    display: flex;
+    margin-top: 10px;
+}
+.leftColumn {
+    width: 20%;
+    margin-right: 10px;
+}
+.nav {
+    height: 500px;
+    margin-bottom: 10px;
+}
+.storeLocator {
+    height: 200px;
+    margin-bottom: 10px;
+}
+.tools {
+    height: 200px;
+    margin-bottom: 10px;
+}
+.centralColumn {
+    width: 59%;
+}
+.centralTop {
+    height: 250px;
+}
+.centralBottom {
+    height: 660px;
+    margin-top: 10px;
+}
+.rightColumn {
+    width: 20%;
+    margin-left: 10px;
+}
+.rightTop {
+    height: 250px;
+}
+.rightBottom {
+    height: 660px;
+    margin-top: 10px;
+}
+.footer {
+    height: 250px;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .logo {
+      margin-right: 0;
+      border-right: 3px solid lightgrey;
+  }
+    .fatBox {
+        display: block;
+    }
+    .leftColumn {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav {
+        height: 100px;
+        width: 100%;
+    }
+    .storeLocator {
+        width: 60%;
+        height: 150px;
+    }
+    .tools {
+        width: 39%;
+        height: 150px;
+        margin-left: 5px;
+    }
+     
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
