@@ -1,0 +1,214 @@
+h3 {
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+/*Завдання 1*/
+.containerOne {
+    background: lightgrey;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.containerOne > div {
+    background: gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxOne {
+    height: 200px;
+    width: 100%;
+}
+.boxTwo {
+    height: 400px;
+    width: 69%;
+}
+.boxThree {
+    height: 400px;
+    width: 28%;
+}
+
+/*Завдання 2*/
+.containerTwo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.containerTwo > div {
+    border: 1px solid black;
+}
+#header {
+    width: 800px;
+    height: 100px;
+    background: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu_posts {
+    height: 600px;
+    width: 800px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+#menu {
+    width: 300px;
+    height: 575px;
+    background: pink;
+    margin-top: 15px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post {
+    width: 480px;
+    height: 280px;
+    background: cornflowerblue;
+    display: flex;
+    margin: 15px 0 15px 0;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    width: 800px;
+    height: 100px;
+    background: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/*Завдання 3*/
+.containerThree {
+    width: 800px;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+}
+.containerThree > div {
+    border-radius: 5px;
+}
+#widgets {
+    height: 200px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#threeWidgets {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+#threeWidgets > div {
+    width: 250px;
+    height: 300px;
+    background: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#contact {
+    height: 400px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Завдання 4*/
+.containerFour {
+    font-size: 25px;
+    color: white;
+}
+.containerFour > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+}
+.header {
+    background: cornflowerblue;
+    height: 100px;
+}
+.nav {
+    background: darkblue;
+    height: 100px;
+}
+.main_aside {
+    height: 500px;
+    display: flex;
+}
+.main_aside > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+}
+.main {
+    height: 100%;
+    width: 70%;
+    background: skyblue;
+}
+.aside {
+    height: 100%;
+    width: 30%;
+    background: darkcyan;
+}
+.footer {
+    height: 100px;
+    background: lightseagreen;
+}
+
+/*Завдання 5*/
+.containerFive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: lightseagreen;
+}
+.containerFive > div {
+    width: 40%;
+    background: whitesmoke;
+    margin: 10px 0 10px 0;
+    display: flex;
+    border-radius: 5px;
+
+}
+.containerFive > div > div > h4 {
+    color: darkorange;
+    margin: 15px 0 0 0;
+}
+.containerFive > div > div > p {
+    text-align: justify;
+    padding-right: 20px;
+    margin: 5px 0 15px 0;
+}
+.ikon {
+    background: whitesmoke;
+    width: 45%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+
+
+
+

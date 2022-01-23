@@ -1,0 +1,200 @@
+/**/
+/* Приклад 1*/
+.containerOne {
+    background: lightgrey;
+}
+.boxOne {
+    background: red;
+    width: 150px;
+    height: 300px;
+}
+.boxTwo {
+    background: blue;
+    width: 150px;
+    height: 150px;
+}
+.boxThree {
+    background: blueviolet;
+    width: 150px;
+    height: 300px;
+}
+.boxFour {
+    background: aquamarine;
+    width: 150px;
+    height: 150px;
+}
+
+/* Приклад 2*/
+.containerTwo {
+    display: flex;
+    background: lightgrey;
+}
+
+/* Приклад 3*/
+.containerThree {
+    display: flex;
+    justify-content: flex-end;
+    background: lightgrey;
+}
+
+/* Приклад 4*/
+.containerFour {
+    display: flex;
+    flex-direction: row-reverse;
+    background: lightgrey;
+}
+
+/* Приклад 5*/
+.containerFive {
+    display: flex;
+    justify-content: space-between;
+    background: lightgrey;
+}
+
+/* Приклад 6*/
+.containerSix {
+    display: flex;
+    justify-content: space-evenly;
+    background: lightgrey;
+}
+
+/* Приклад 7*/
+.containerSeven {
+    display: flex;
+    align-items: flex-end;
+    background: lightgrey;
+    height: 500px;
+}
+
+/* Приклад 8*/
+.containerEight {
+    display: flex;
+    align-items: center;
+    background: lightgrey;
+    height: 500px;
+}
+
+/* Приклад 9*/
+.containerNine {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    background: lightgrey;
+    height: 500px;
+}
+.containerNine > div {
+    height: auto;
+}
+
+/* Приклад 10*/
+.containerTen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: lightgrey;
+}
+
+/* Приклад 11*/
+.containerEleven {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+    height: 200px;
+    background: lightgrey;
+}
+.box {
+    height: 100px;
+    background-color: white;
+    background: blue;
+}
+
+/* Приклад 12*/
+.containerTwelve {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.productCard {
+    background: whitesmoke;
+    width: 250px;
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+}
+.productCard > img {
+    width: 150px;
+    height: 200px;
+    padding-left: 45px;
+}
+.productCard > h3 {
+    text-align: center;
+}
+.productCard > p {
+    text-align: justify; /* Дозволяє розтягнути текст від краю до краю*/
+    box-sizing: border-box;/* Завдяки цьому текст не буде виходити за межі, коли застосуємо padding*/
+    padding: 5px 5px;
+}
+
+/* Приклад 13*/
+.containerThirteen {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.productCardOne {
+    width: 620px;
+    background: whitesmoke;
+    box-sizing: border-box;
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+}
+.productCardOne > h3 {
+    text-align: center;
+}
+.productCardInfo {
+    display: flex;
+}
+.productCardInfo > img {
+    width: 300px;
+    height: 200px;
+    padding-top: 25px;
+}
+.productCardInfo > p {
+    text-align: justify;
+    padding: 5px;
+}
+
+/* Приклад 14*/
+.wrap {
+    display: flex;
+    height: 400px;
+    background: lightgrey;
+    justify-content: center;
+    align-items: flex-end;
+}
+.child {
+    width: 300px;
+    height: 300px;
+    background: cadetblue;
+    border-radius: 50%;
+    position: relative; /* Ця характеристика робить цей блок привидом */
+    top: 150px;         /* і дозволяє маніпулювати ним, наприклад */
+                        /* задавши відступ від вершини */
+
+    display: flex;            /* Ці характеристики ми задали, щоб */
+    justify-content: center;  /* розмістити завантажену іконку */
+    align-items: center;      /* <i class="fas fa-desktop"></i> */
+}                             /* по центру блоку child */
+.child > i {
+    font-size: 100px;
+}
+.wrap2 {
+    height: 250px;
+    background: brown ;
+}
+
+
+
+
+
+

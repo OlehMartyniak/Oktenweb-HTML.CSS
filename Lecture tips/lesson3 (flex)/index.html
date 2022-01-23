@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tips from HTML lesson 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60ad98f2ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<h4>За замовчуванням flex елементи будуть зжиматись під час зжимання. Щоб цього не було треба застосувати обгортку flex-wrap: wrap і тоді елементи будуть переноситись в новий рядок</h4>
+
+<h4>1. За замовчуванням у всіх div стоїть характеристика display: block, завдяки якій вони наймають 100% ширини екрану</h4>
+<div class="containerOne">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>2. Якщо ж до батьківського елемента цих чотирьох div застосувати властивість display: flex, вони встануть в ряд і до них автоматично застосується характеристика flex-direction: row </h4>
+<div class="containerTwo">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>3. Всі елементи батьківського блоку можна розташовувати також в центрі або в кінці цього блоку з допомогою функції justify-content: flex-end (в кінці), center (по центру) та flex-start (на початку, іде за замовчуванням)</h4>
+<div class="containerThree">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>4. З допомогою flex-direction: row-reverse (в даному випадку), або flex-direction: column-reverse; можна дзеркально змінювати розташування елементів; p.s. justify-content визначає поведінку горизонтального вектора, або main axis </h4>
+<div class="containerFour">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>5. З допомогою justify-content: space-between можна зробити рівні відступи між блоками, однак відступи будуть додаватись один до одного</h4>
+<div class="containerFive">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>6. З допомогою justify-content: space-between можна зробити рівні відступи між усіма блоками </h4>
+<div class="containerSix">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>7. З вертикальною віссю cross axis працює функція align-items: flex-start (за замовчуванням іде з display:flex), flex-end (розташовує на дні блоку), center, stretch, baseline. В даному випадку маємо align-items: flex-end</h4>
+<div class="containerSeven">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>8. З допомогою align-items: center вирівнюємо по центру батьківського блоку</h4>
+<div class="containerEight">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>9. З допомогою align-items: stretch можна витягнути контейнери на висоту батьківського елемента (при цьому їх висота має бути автоматичною height: auto)</h4>
+<div class="containerNine">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>10. justify-content: center; align-items: center; flex-direction: column;</h4>
+<div class="containerTen">
+    <div class="boxOne">Box One</div>
+    <div class="boxTwo">Box Two</div>
+    <div class="boxThree">Box Three</div>
+    <div class="boxFour">Box Four</div>
+</div>
+
+<h4>11. Flex-basis дозволяє визначити розмір елементів вздовж головної осі</h4>
+<div class="containerEleven">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+    <div class="box">Box 7</div>
+    <div class="box">Box 8</div>
+</div>
+
+<h4>12. В цьому випадку ми створили картки для товарів </h4>
+<div class="containerTwelve">
+    <div class="productCard">
+        <h3>Iphone 13</h3>
+        <img src="images/IphoneImage.jpeg" alt="Iphone 13">
+        <p>
+            The iPhone 13 and iPhone 13 Mini (stylized as iPhone 13 mini) are smartphones designed, developed, marketed, and sold by Apple Inc. They are the fifteenth generation of iPhones (succeeding the iPhone 12 and iPhone 12 Mini). They were unveiled at an Apple Event in Apple Park in Cupertino, California on September 14, 2021, alongside the higher priced iPhone 13 Pro and iPhone 13 Pro Max flagships.[12] Pre-orders for the iPhone 13 and iPhone 13 Mini began on September 17, 2021. They became available on September 24, 2021
+        </p>
+    </div>
+
+    <div class="productCard">
+        <h3>Iphone 13</h3>
+        <img src="images/IphoneImage.jpeg" alt="Iphone 13">
+        <p>
+            The iPhone 13 and iPhone 13 Mini (stylized as iPhone 13 mini) are smartphones designed, developed, marketed, and sold by Apple Inc. They are the fifteenth generation of iPhones (succeeding the iPhone 12 and iPhone 12 Mini). They were unveiled at an Apple Event in Apple Park in Cupertino, California on September 14, 2021, alongside the higher priced iPhone 13 Pro and iPhone 13 Pro Max flagships.[12] Pre-orders for the iPhone 13 and iPhone 13 Mini began on September 17, 2021. They became available on September 24, 2021
+        </p>
+    </div>
+
+    <div class="productCard">
+        <h3>Iphone 13</h3>
+        <img src="images/IphoneImage.jpeg" alt="Iphone 13">
+        <p>
+            The iPhone 13 and iPhone 13 Mini (stylized as iPhone 13 mini) are smartphones designed, developed, marketed, and sold by Apple Inc. They are the fifteenth generation of iPhones (succeeding the iPhone 12 and iPhone 12 Mini). They were unveiled at an Apple Event in Apple Park in Cupertino, California on September 14, 2021, alongside the higher priced iPhone 13 Pro and iPhone 13 Pro Max flagships.[12] Pre-orders for the iPhone 13 and iPhone 13 Mini began on September 17, 2021. They became available on September 24, 2021
+        </p>
+    </div>
+</div>
+
+<h4>13. В цьому випадку створили картки товарів, де текст і картинка розташовані горизонтально. При цьому, щоб змінити розташування картинок в першій і другій картинці, просто поміняли порядковість елементів img та p; Або ж звернутись до батьківського для картинки і параграфа елемента і задати flex-direction: row-reverse</h4>
+<div class="containerThirteen">
+    <div class="productCardOne">
+        <h3>Dodge Charger</h3>
+        <div class="productCardInfo">
+            <img src="images/DodgeImage.jpeg" alt="DodgeCharger">
+            <p>
+                The Dodge Charger is a model of automobile marketed by Dodge in various forms over seven generations since 1966.
+                The first Charger was a show car in 1964.[1][2] A 1965 Charger II concept car had a remarkable resemblance to the 1966 production version.[3]
+                The Charger has been built on three different platforms in various sizes. In the United States, the Charger nameplate has been used on subcompact hatchbacks, full-size sedans, muscle cars, and personal luxury coupes. The current version is a four-door sedan.
+            </p>
+        </div>
+    </div>
+
+    <div class="productCardOne">
+        <h3>Dodge Charger</h3>
+        <div class="productCardInfo">
+            <p>
+                The Dodge Charger is a model of automobile marketed by Dodge in various forms over seven generations since 1966.
+                The first Charger was a show car in 1964.[1][2] A 1965 Charger II concept car had a remarkable resemblance to the 1966 production version.[3]
+                The Charger has been built on three different platforms in various sizes. In the United States, the Charger nameplate has been used on subcompact hatchbacks, full-size sedans, muscle cars, and personal luxury coupes. The current version is a four-door sedan.
+            </p>
+            <img src="images/DodgeImage.jpeg" alt="DodgeCharger">
+        </div>
+    </div>
+</div>
+
+<h4>14. В цьому випадку ми з допомогою position: relative; ми здвинули круглий блок, зробивши його по центру двох інших блоків (фіксується його оригінальна позиція, і тоді щодо неї блоком можна маніпулювати), а також підключишви "< script src="https://kit.fontawesome.com/60ad98f2ff.js" crossorigin="anonymous" >< /script >" (в head) з сайту Font Awesome, та вставили необхідний нам іконочний шрифт (іконка десктопа - елемент ""< i class="fas fa-desktop" >< /i >"") в блок </h4>
+<div class="containerFourteen">
+    <div class="wrap">
+        <div class="child">
+            <i class="fas fa-desktop"></i>
+        </div>
+    </div>
+    <div class="wrap2"></div>
+</div>
+
+
+
+
+</body>
+</html>
