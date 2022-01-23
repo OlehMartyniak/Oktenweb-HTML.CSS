@@ -305,13 +305,25 @@ h3 {
         width: 100%;
     }
     .storeLocator {
-        width: 60%;
+        width: 50%;
         height: 150px;
+        display: none;
     }
     .tools {
-        width: 39%;
+        width: 49%;
         height: 150px;
         margin-left: 5px;
+        display: none;
+    }
+    .centralTop {
+        width: 50%;
+        height: 150px;
+    }
+    .centralBottom {
+        display: none;
+    }
+    .fatBox {
+        display: flex;
     }
      
 

@@ -3,10 +3,15 @@
     display: flex;
     justify-content: space-between;
     border: 5px solid black;
-
+}
+.header > div {
+    width: 20%;
+    height: 50px;
+    background: lightgrey;
+    margin: 8px;
 }
 .smallestBox {
-    width: 150px;
+    width: 90%;
     height: 50px;
     background: lightgrey;
     margin: 8px;
@@ -110,3 +115,150 @@
     background: lightgrey;
     margin: 0 0 25px;
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header > div {
+        height: 25px;
+    }
+    .leftBox {
+        display: none;
+    }
+    .box3 {
+        height: 100px;
+        margin: 8px;
+        width: 98%;
+    }
+    .box3_4 {
+        border: 5px solid black;
+        border-top: none;
+    }
+    .box4 {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box4 > div {
+        height: 100px;
+        width: 47%;
+        margin: 8px;
+    }
+    .box5 > div:nth-child(2n) {
+        display: none;
+    }
+    .box5 > div {
+        margin: 8px;
+        width: 47%;
+    }
+    .box5 {
+        width: 98.5%;
+        border: 5px solid black;
+        margin: 0;
+        border-top: none;
+        border-bottom: none;
+        justify-content: space-between;
+    }
+    .box5_6 {
+        display: block;
+    }
+    .box6 {
+        width: 98.5%;
+        border: 5px solid black;
+        align-items: flex-start;
+    }
+    .box6 > div {
+        margin: 8px;
+        height: 50px;
+    }
+    .box6 > div:nth-child(-n+3) {
+        width: 47%;
+    }
+    .box6 > div:nth-child(4) {
+        width: 45%;
+        height: 180px;
+        position: absolute;
+        right: 13px;
+        top: 770px;
+    }
+    .box7 {
+        width: 98.5%;
+        border-left: 5px solid black;
+    }
+    .box7 > div {
+        margin: 8px;
+        height: 25px;
+    }
+    .box7_1 {
+        width: 98%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .header {
+        justify-content: center;
+        align-items: flex-end;
+        height: 75px;
+    }
+    .header > div {
+        height: 25px;
+        width: 46%;
+    }
+    .leftBox {
+        display: none;
+    }
+    .box3_4 {
+        border-left: 5px solid black;
+    }
+    .box3 {
+        height: 100px;
+        margin: 8px;
+    }
+    .box4 {
+        flex-wrap: wrap;
+    }
+    .box4 > div {
+        width: 45%;
+        margin: 8px;
+    }
+    .box5 > div:nth-child(2n) {
+        display: none;
+    }
+    .box5 > div:nth-child(11) {
+        width: 20%;
+        height: 15px;
+    }
+    .box5 > div {
+        margin: 8px;
+        width: 95%;
+        height: 25px;
+    }
+    .box5 {
+        width: 98%;
+        border-left: 5px solid black;
+    }
+    .box5_6 {
+        display: block;
+    }
+    .box6 {
+        width: 98%;
+        border-left: 5px solid black;
+    }
+    .box6 > div {
+        width: 95%;
+        height: 25px;
+        margin: 8px;
+    }
+    .box6 > div:nth-child(4) {
+        height: 100px;
+    }
+    .box7 {
+        width: 98%;
+        border-left: 5px solid black;
+    }
+    .box7 > div {
+        margin: 8px;
+        height: 25px;
+    }
+    .box7_1 {
+        width: 95%;
+    }
+}
+
+
