@@ -1,0 +1,35 @@
+body {
+    border: 5px solid red;
+    box-shadow: 0 0 0 1px ;
+}
+h1, h2, h3 {
+    text-align: center;
+    border: 5px solid green;
+    box-shadow: 0 0 0 1px ;
+    margin: 20px;
+    padding: 10px 0 10px 0;
+}
+p {
+    border: 5px solid yellow;
+    box-shadow: 0 0 0 1px lightgrey;
+    margin: 20px;
+    padding: 10px 5px 10px 5px;
+    text-align: justify;
+}
+img {
+    width: 50%;
+    border: 5px solid pink;
+    box-shadow: 0 0 0 1px lightgrey;
+}
+ul {
+    border: 5px solid skyblue;
+    box-shadow: 0 0 0 1px darkgray;
+    margin: 20px;
+    padding: 10px 0 10px 0;
+}
+li {
+    border: 5px solid darkblue;
+    box-shadow: 0 0 0 1px darkgray;
+    margin: 20px;
+    padding: 10px 0 10px 0;
+}
