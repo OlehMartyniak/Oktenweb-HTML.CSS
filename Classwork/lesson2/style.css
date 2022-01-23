@@ -1,0 +1,101 @@
+/*Завдання 1*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 600px;
+}
+.container > div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.boxOne {
+    color: darkorange;
+    border: 3px solid darkorange;
+    border-radius: 25px;
+    height: 50px;
+    width: 250px;
+}
+.boxTwo {
+    color: aqua;
+    border: 3px solid aqua;
+    border-radius: 25px;
+    height: 50px;
+    width: 250px;
+}
+.boxThree {
+    color: deeppink;
+    border: 3px solid deeppink;
+    border-radius: 25px;
+    height: 50px;
+    width: 250px;
+}
+.boxFour {
+    color: orangered;
+    border: 3px solid orangered;
+    border-radius: 25px;
+    height: 50px;
+    width: 250px;
+}
+
+/*Завдання 2*/
+.containerOne {
+    width: 500px;
+    height: 300px;
+    background: darkgray;
+    margin: 100px 0 0 40px;
+    box-shadow: -20px -20px 20px 20px rgba(255, 107, 0, 0.22);
+}
+.containerTwo {
+    margin-top: 50px;
+}
+.containerTwo > p {
+    border-left: 5px solid red;
+    margin: 0;
+    padding-left: 15px;
+}
+
+/*Завдання 3*/
+.containerThree {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.containerThree > div {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    border: 1px solid black;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.A {
+    box-shadow: 20px 20px 0 0;
+}
+.B {
+    box-shadow: 20px 20px 5px 0;
+}
+.C {
+    box-shadow: 20px 20px 10px 5px;
+}
+.D {
+    box-shadow: 20px 20px 5px 0 darkgray;
+}
+.E {
+    border-radius: 8px;
+    box-shadow: 20px 20px 5px 0;
+}
+.F {
+    border-radius: 8px;
+    box-shadow: 20px 20px 3px 0 darkgray;
+}

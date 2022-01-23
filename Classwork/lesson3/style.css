@@ -1,0 +1,274 @@
+h3 {
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+/*Завдання 1*/
+.containerOne {
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+.containerOne > div {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.A {
+    height: 150px;
+    background: lightgrey;
+}
+.bigBox {
+    display: flex;
+    height: 400px;
+    background: whitesmoke;
+}
+.bigBox > div {
+   padding: 0 10px 10px 0;
+}
+.BCDE_box {
+    height: 100%;
+    width: 75%;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+.B {
+    width: 100%;
+    height: 50%;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.CDEbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+
+}
+.CDEbox > div {
+    background: lightgrey;
+    width: 32.5%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.F {
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    background: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/*Завдання 2*/
+.containerTwo {
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    background: whitesmoke;
+    padding: 10px 10px 5px 10px;
+}
+.boxA {
+    height: 150px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.fatBox {
+    background: whitesmoke;
+    display: flex;
+    height: 500px;
+    margin-top: 10px;
+}
+.BCDEFG {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: whitesmoke;
+}
+.BCDEFG > div {
+    width: 32.5%;
+    height: 240px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.H {
+    background: lightgrey;
+    width: 25%;
+    margin: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/*Завдання 3*/
+.containerThree {
+    color: white;
+    font-size: 15px;
+}
+.home_about {
+    width: 300px;
+    height: 350px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.home_about > div {
+    height: 100%;
+    width: 48%;
+    background: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kabobs {
+    height: 150px;
+    width: 300px;
+    background: steelblue;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threeKabobs {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+}
+.threeKabobs > div {
+    width: 31%;
+    height: 150px;
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Завдання 4*/
+.containerFour {
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerFour > div {
+    width: 250px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.containerFour > div > h4 {
+    color: darkorange;
+}
+i {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+}
+p {
+    text-align: justify;
+    padding: 10px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: lightseagreen;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/*Завдання 5*/
+.containerFive {
+    display: flex;
+    justify-content: space-evenly;
+}
+.info {
+    width: 250px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info > h4 {
+    margin-top: 50px;
+}
+.info > button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    margin-bottom: 40px;
+}
+.info > p {
+    text-align: justify;
+    padding: 25px;
+    color: lightgrey;
+}
+.wrap {
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    background: white;
+}
+.wrap > i {
+    font-size: 40px;
+    color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
