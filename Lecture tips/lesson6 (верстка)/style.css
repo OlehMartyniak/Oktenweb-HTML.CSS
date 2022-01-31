@@ -220,6 +220,26 @@
     line-height: 24px;
 }
 
+/* Блок List of Companies */
+.block_listOfComapies {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+.blockLOC-left {
+    max-width: 240px;
+}
+.blockLOC-left > p {
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    width: 236px;
+}
+.blockLOC-right {
+    display: flex;
+    margin-left: 120px;
+}
+
 /* Блок 5 */
 .blockFive {
     display: flex;
@@ -255,7 +275,7 @@
     box-shadow: 0px 0px 10px 1px #000000;
 }
 .right_blockFive > img {
-    margin-top: 110px;
+    margin: 110px 0 0 110px;
 }
 
 /* Блок 6 */
